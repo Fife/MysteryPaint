@@ -141,7 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
-    <ClInclude Include="GameOfLifeTake2.h" />
+    <ClInclude Include="MysteryPaint.h" />
     <ClInclude Include="basewin.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
@@ -150,10 +150,6 @@
     <ClCompile Include="MysteryPaint.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="GameOfLifeTake2.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="GameOfLifeTake2.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

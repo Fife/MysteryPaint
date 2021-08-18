@@ -48,8 +48,6 @@ public:
 
 // Recalculate drawing layout when the size of the window changes.
 
-void MainWindow::
-
 void MainWindow::CalculateLayout()
 {
     if (pRenderTarget != NULL)
@@ -73,8 +71,6 @@ void MainWindow::CalculateNewLayout(float xpos, float ypos)
         rectVect.push_back(D2D1::RectF(xpos+brushSize, ypos+ brushSize, xpos - brushSize, ypos - brushSize));
     }
 }
-
-
 
 HRESULT MainWindow::CreateGraphicsResources()
 {
