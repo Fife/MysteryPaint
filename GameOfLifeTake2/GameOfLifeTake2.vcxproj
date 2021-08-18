@@ -24,7 +24,7 @@
     <ProjectGuid>{bb423d18-345f-4a3c-9366-83d8787258a6}</ProjectGuid>
     <RootNamespace>GameOfLifeTake2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>GameOfLife</ProjectName>
+    <ProjectName>MysteryPaint</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -142,11 +142,12 @@
   <ItemGroup>
     <ClInclude Include="framework.h" />
     <ClInclude Include="GameOfLifeTake2.h" />
+    <ClInclude Include="basewin.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GameOfLife.cpp" />
+    <ClCompile Include="MysteryPaint.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="GameOfLifeTake2.rc" />

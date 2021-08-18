@@ -27,6 +27,9 @@
     <ClInclude Include="GameOfLifeTake2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="basewin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="GameOfLifeTake2.rc">
@@ -42,7 +45,7 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GameOfLife.cpp">
+    <ClCompile Include="MysteryPaint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
